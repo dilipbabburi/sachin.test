@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	font-family: sans-serif;
+	margin: 0;
+	height: 100vh;
+
+}
+
+
+#maindiv{
+	width: 100%;
+	height: 100%;
+    background-image: url(https://media.gqindia.com/wp-content/uploads/2016/04/Sachin-true-blue-top.jpg);
+	background-size:cover;
+	background-position: 50% 0;
+	margin: 0;
+}
+#navdiv ul { 
+	width: 100%;
+	height:80px;
+	background:rgba(2, 13, 10, 0.29);
+	line-height: 70px;
+	color: white;
+	margin: 0;
+ }
+ #navdiv ul a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 20px;
+ }
+#navdiv ul li {
+	list-style-type:none;
+	display:inline-block;
+	float: right;
+}
+#navdiv ul li:hover{
+	background: rgba(5, 1, 4, 0.51);
+	transition: all 0.40s;
+}
+#navdiv h1{
+	
+	float:left;
+	cursor: pointer;
+	margin: 0;
+}
+#footer {
+	font-size: 30px;
+	position: absolute;
+	bottom:50px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: white; 
+
+}
+
+#footer a {
+	color: black;
+}
+#footer a:visited {
+	color: black;
+}
